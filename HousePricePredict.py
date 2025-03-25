@@ -56,29 +56,7 @@ with col2:
 
 with st.form("prediction_form"):
     c1,c2,c3,c4 = st.columns((1,1,1,1),gap='large')
-
-    # with c1:
-    #     st.write('Area:')
-    #     area = st.number_input('House Area:')
-
-    #     st.write('Bedrooms:')
-    #     brooms = st.number_input('Bedrooms:')
-
-    #     st.write('Stories:')
-    #     sto = st.number_input('Stories:')
-
-    # with c2:
-    #     st.write('Bathrooms:')
-    #     bath = st.number_input('Bathrooms:')
-
-    #     st.write('Mainroad:')
-    #     m = st.text_input('Is mainroad:')
-    #     if m == 'yes':
-    #         main = 1
-    #     elif m == 'no':
-    #         main = 0
-    #     else:
-    #         st.warning('Wrong input')
+    
     with c1:
         area = st.number_input(' House Area (sq ft):', min_value=0)
 
